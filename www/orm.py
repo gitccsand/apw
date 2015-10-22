@@ -11,7 +11,7 @@ def log(sql, args=()):
     logging.info('SQL: %s' % sql)
 
 @asyncio.coroutine
-def create_pool(loop, **kw):
+def create_pool(loop=None, **kw):
     logging.info('create database connection pool...')
     global __pool
     __pool = yield from aiomysql.create_pool(
