@@ -16,12 +16,19 @@ import asyncio
 def test(loop):
     yield from orm.create_pool(loop=loop, host='127.0.0.1', port=3306, user='www', password='www', db='awesome')
 
-    u = User(name='Test', email='test@example.com', passwd='1234567890', image='about:blank')
+    for user in (yield from User.findAll()):
+        yield from user.remove()
+
+    u = User(name='Test1', email='test1@example.com', passwd='1234567890', image='about:blank')
 
     yield from u.save()
 
-    yield from u.remove()
-    
+    u = User(name='Test2', email='test2@example.com', passwd='1234567890', image='about:blank')
+
+    yield from u.save()
+
+    for user in (yield from User.findAll('name=\'Test2\'')):
+        print (user)
 
 loop = asyncio.get_event_loop()
 loop.run_until_complete(test(loop))
