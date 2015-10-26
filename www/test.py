@@ -11,6 +11,7 @@ import orm
 from models import User, Blog, Comment
 
 import asyncio
+import logging
 
 @asyncio.coroutine
 def test(loop):
@@ -23,12 +24,26 @@ def test(loop):
 
     yield from u.save()
 
-    u = User(name='Test2', email='test2@example.com', passwd='1234567890', image='about:blank')
+    u = User(name='Test2', email='test2@example.com', passwd='1234567890', image='about:blank',ddd='ddd')
 
     yield from u.save()
 
-    for user in (yield from User.findAll('name=\'Test2\'')):
-        print (user)
+    u = User(name='Test3',  passwd='1234567890', image='about:blank')
+    try:
+        yield from u.save()
+    except BaseException as e:
+        logging.error('USER Insert Sql error:',e)
+
+    name='kk\' or \'password\'=\'password'
+##    name='Test1'
+    where='name=\''+name+'\''
+    print(where)
+    try:
+        for user in (yield from User.findAll(where)):
+            print (user)
+    except BaseException as e:
+        logging.ERROR(e)
+            
 
 loop = asyncio.get_event_loop()
 loop.run_until_complete(test(loop))
