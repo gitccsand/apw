@@ -89,7 +89,7 @@ class RequestHandler(object):
         self._required_kw_args = get_required_kw_args(fn)
 
     @asyncio.coroutine
-    def __call__(self, request):
+    def __call__(self, request):#aiohttp入口 接收request
         kw = None
         if self._has_var_kw_arg or self._has_named_kw_args or self._required_kw_args:
             if request.method == 'POST':
