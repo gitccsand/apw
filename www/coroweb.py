@@ -172,3 +172,7 @@ def add_routes(app, module_name):
             path = getattr(fn, '__route__', None)
             if method and path:
                 add_route(app, fn)
+
+if __name__ == '__main__':
+    print(os.path.abspath(__file__))
+    print( os.path.dirname(os.path.abspath(__file__)) )
