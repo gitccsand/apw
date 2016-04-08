@@ -1,0 +1,79 @@
+{% extends '__base__.html' %}
+
+{% block title %}信息类{% endblock %}
+
+{% block beforehead %}
+
+<script>
+</script>
+
+{% endblock %}
+
+{% block base_content %}
+    <div class="uk-width-medium-1-4">
+        <div class="uk-panel uk-panel-header">
+            <a href="/eq">
+                <div class="uk-panel-badge uk-badge uk-badge-danger">信息类</div>
+            </a>
+            <h3 class="uk-panel-title"><i class="uk-icon-tv"></i>  信息类资产</h3>
+           <!--  <ul class="uk-nav uk-list uk-list-line" data-uk-nav>
+                <li class="uk-parent">
+                    <i class="uk-icon-user-plus"></i> <a href="/eq/office_eq">部门资产</a>
+                    <ul class="uk-nav-sub">
+                        <li><i class="uk-icon-user-plus"></i> <a href="/eq/office_eq">部门资产</a></li>
+                        <li><i class="uk-icon-user"></i> <a href="/eq/myeq">我的资产</a></li>                        
+                    </ul>
+                </li>
+                <li><i class="uk-icon-thumbs-o-up"></i> <a target="_blank" href="http://www.liaoxuefeng.com/category/0013738748248885ddf38d8cd1b4803aa74bcda32f853fd000">读书</a></li>
+                <li><i class="uk-icon-thumbs-o-up"></i> <a target="_blank" href="http://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000">Python教程</a></li>
+                <li><i class="uk-icon-thumbs-o-up"></i> <a target="_blank" href="http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000">Git教程</a></li>
+            </ul> -->
+            <ul class="uk-nav uk-nav-side uk-nav-parent-icon uk-width-medium-1-1" data-uk-nav="multiple:true">
+               <!--  <li class="uk-active">
+                    <a href="">Active</a>
+                </li>
+                <li>
+                    <a href="">Item</a>
+                </li> -->
+                 <li class="uk-parent ">
+                     <a href="#">信息类</a>
+                     <ul class="uk-nav-sub">
+
+                         <li>
+                             <a href="">部门资产</a>
+                             <ul class="uk-nav-sub">
+                                 <li>
+                                     <a href="/eq/eq_dep">在用资产</a>
+                                 </li>
+                                 <li>
+                                     <a href="/eq/eq_out">闲置资产</a>
+                                 </li>
+                             </ul>
+                         </li>
+                         <li>
+                             <a href="">我的资产</a>
+                         </li>
+                     </ul>
+                 </li>
+
+                <li class="uk-parent ">
+                    <a href="#">其他</a>
+                    <ul class="uk-nav-sub">
+                        <li>
+                            <a href="">Sub item</a>
+                        </li>
+                        <li>
+                            <a href="">Sub item</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="uk-width-medium-3-4">
+        {%block content%}
+        {%endblock%}    
+    </div>
+
+{% endblock %}

@@ -24,8 +24,8 @@ def create_pool(loop, **kw):
         autocommit=kw.get('autocommit', True),
         maxsize=kw.get('maxsize', 10),
         minsize=kw.get('minsize', 1),
-        loop=loop
-    )
+        loop=loop)
+
 
 @asyncio.coroutine
 def select(sql, args, size=None):

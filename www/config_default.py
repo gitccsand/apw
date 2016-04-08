@@ -5,18 +5,18 @@
 Default configurations.
 '''
 
-__author__ = 'Michael Liao'
+__author__ = 'Liu Hongwei'
 
 configs = {
     'debug': True,
     'db': {
         'host': '127.0.0.1',
         'port': 3306,
-        'user': 'www',
-        'password': 'www',
-        'db': 'awesome'
+        'user': 'zichan',
+        'password': 'zichan901',
+        'db': 'asset'
     },
     'session': {
-        'secret': 'Awesome'
+        'secret': 'Asset'
     }
 }

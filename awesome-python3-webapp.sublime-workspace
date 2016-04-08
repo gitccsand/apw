@@ -1,0 +1,704 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"uk-container",
+				"uk-container-center 	UIkit class"
+			],
+			[
+				"uk-vertical-align",
+				"uk-vertical-align-middle 	UIkit class"
+			],
+			[
+				"uk-ver",
+				"uk-vertical-align-middle 	UIkit class"
+			],
+			[
+				"uk-v",
+				"uk-visible-medium 	UIkit class"
+			],
+			[
+				"uk-pos",
+				"uk-position-bottom 	UIkit class"
+			],
+			[
+				"uk-po",
+				"uk-position-top-left 	UIkit class"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"uk-hei",
+				"uk-height-1-1 	UIkit class"
+			],
+			[
+				"uk-cont",
+				"uk-container-center 	UIkit class"
+			],
+			[
+				"uk-co",
+				"uk-contrast 	UIkit class"
+			],
+			[
+				"uk-block",
+				"uk-block-primary 	UIkit class"
+			],
+			[
+				"uk-bl",
+				"uk-block-muted 	UIkit class"
+			],
+			[
+				"UK-PANEL-BO",
+				"uk-panel-box-primary 	UIkit class"
+			],
+			[
+				"uk-badgE",
+				"uk-badge-danger 	UIkit class"
+			],
+			[
+				"UK-BA",
+				"uk-badge-success 	UIkit class"
+			],
+			[
+				"uk-badge",
+				"uk-badge-notification 	UIkit class"
+			],
+			[
+				"uk-ba",
+				"uk-badge-notification 	UIkit class"
+			],
+			[
+				"uk-icon-tr",
+				"uk-icon-truck 	UIkit class"
+			],
+			[
+				"r",
+				"request"
+			],
+			[
+				"re",
+				"response"
+			],
+			[
+				"D",
+				"def"
+			],
+			[
+				"F",
+				"func"
+			],
+			[
+				"WR",
+				"wraps"
+			],
+			[
+				"FUN",
+				"functools"
+			],
+			[
+				"de",
+				"decorator"
+			],
+			[
+				"try",
+				"try	Try/Except/Finally"
+			],
+			[
+				"ru",
+				"run_until_complete"
+			],
+			[
+				"uk-gr",
+				"uk-grid-divider 	UIkit class"
+			],
+			[
+				"h",
+				"html"
+			],
+			[
+				"asyn",
+				"asyncio"
+			],
+			[
+				"if",
+				"ifmain	if __name__ == '__main__'"
+			],
+			[
+				"from",
+				"from_out1"
+			],
+			[
+				"fro",
+				"from_out"
+			],
+			[
+				"__",
+				"__route__"
+			],
+			[
+				"a",
+				"a1"
+			],
+			[
+				"uk-n",
+				"uk-navbar 	UIkit class"
+			],
+			[
+				"di",
+				"div	Tag"
+			],
+			[
+				"q",
+				"quotes"
+			],
+			[
+				"b",
+				"brackets"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "www/handlers.py",
+			"settings":
+			{
+				"buffer_size": 3058,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/app.py",
+			"settings":
+			{
+				"buffer_size": 5214,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/templates/eq_base.html",
+			"settings":
+			{
+				"buffer_size": 3140,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/templates/__base__.html",
+			"settings":
+			{
+				"buffer_size": 4017,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/templates/eq.html",
+			"settings":
+			{
+				"buffer_size": 2761,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 480.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"Bracketeer: Select Inside Braces"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"ssp",
+				"Set Syntax: Python"
+			],
+			[
+				"sspy",
+				"Set Syntax: Python"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			]
+		],
+		"width": 636.0
+	},
+	"console":
+	{
+		"height": 338.0,
+		"history":
+		[
+			"exit()",
+			"stop()",
+			"quit()",
+			"exit()",
+			"exit",
+			"print(\"sdf\")",
+			"x",
+			"exit()",
+			"1",
+			"loop"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/codeplace/py/apw/www/awesome-python3-webapp"
+	],
+	"file_history":
+	[
+		"/D/codeplace/py/apw/www/awesome-python3-webapp/www/templates/__base__1.html",
+		"/D/codeplace/py/apw/www/awesome-python3-webapp/www/templates/__base__.html",
+		"/D/codeplace/py/apw/www/awesome-python3-webapp/www/templates/che_base.html",
+		"/D/codeplace/py/apw/www/awesome-python3-webapp/www/templates/fw_base.html",
+		"/D/codeplace/py/apw/www/awesome-python3-webapp/www/templates/che.html",
+		"/D/codeplace/py/apw/www/awesome-python3-webapp/www/app.py",
+		"/D/codeplace/py/apw/www/awesome-python3-webapp/testpy/decorator_bb.py",
+		"/D/codeplace/py/apw/www/awesome-python3-webapp/www/templates/fw.html",
+		"/D/codeplace/py/apw/www/awesome-python3-webapp/www/models.py",
+		"/D/codeplace/py/apw/www/awesome-python3-webapp/www/templates/eq.html",
+		"/D/codeplace/py/apw/www/awesome-python3-webapp/www/templates/eq_base.html",
+		"/D/codeplace/py/apw/www/awesome-python3-webapp/www/static/web/uikit/__base__.html",
+		"/D/codeplace/py/apw/www/awesome-python3-webapp/www/static/web/ext/ext-6.0.0/examples/index.html",
+		"/D/codeplace/py/apw/www/awesome-python3-webapp/www/handlers.py",
+		"/D/codeplace/py/apw/www/awesome-python3-webapp/zichan-schema.sql",
+		"/D/codeplace/py/apw/www/awesome-python3-webapp/schema.sql",
+		"/D/codeplace/py/apw/www/awesome-python3-webapp/www/config_default.py",
+		"/D/codeplace/py/apw/www/awesome-python3-webapp/www/config.py",
+		"/D/codeplace/py/apw/www/awesome-python3-webapp/www/orm.py",
+		"/D/codeplace/py/apw/www/awesome-python3-webapp/www/coroweb.py",
+		"/D/codeplace/py/apw/www/db/mysql.py",
+		"/D/codeplace/py/apw/www/awesome-python3-webapp/testpy/yield_func.py",
+		"/D/codeplace/py/apw/www/awesome-python3-webapp/www/templates/blogs.html",
+		"/D/codeplace/py/apw/www/awesome-python3-webapp/testpy/aiohttp_client.py",
+		"/D/codeplace/py/apw/www/awesome-python3-webapp/testpy/func_callable.py",
+		"/D/codeplace/py/apw/www/awesome-python3-webapp/www/templates/uikit/Uikit-grid.html",
+		"/D/codeplace/py/apw/www/awesome-python3-webapp/www/templates/uikit/__base__.html",
+		"/D/Program Files/Sublime Text 3/Data/Packages/Default/Default (Windows).sublime-keymap",
+		"/D/Program Files/Sublime Text 3/Data/Packages/Default/Preferences.sublime-settings",
+		"/D/Program Files/Sublime Text 3/Data/Packages/Default/Default (Windows)20151228.sublime-keymap",
+		"/D/Program Files/Sublime Text 3/Data/Packages/User/Default (Windows).sublime-keymap",
+		"/D/codeplace/py/apw/www/awesome-python3-webapp/www/static/css/uikit.min.css",
+		"/D/codeplace/web/uikit/Login layout example - UIkit documentation.html",
+		"/D/用户目录/下载/Sublime Text 3/Data/Packages/Default/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 50.0
+	},
+	"find_in_files":
+	{
+		"height": 138.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"uikit-2.22.0",
+			"web",
+			"22",
+			"uikit",
+			"0",
+			"uikit",
+			"models",
+			"awesome",
+			"www",
+			"awesome",
+			"data_factory",
+			"__file__",
+			"如果不是generator",
+			"否则执行完毕后",
+			"datetime",
+			"init_jinja2",
+			"datetime_filter",
+			"__import__",
+			"uikit-2.22.0",
+			"static",
+			"22",
+			"0",
+			"2",
+			"22",
+			"0",
+			"uikit",
+			"web",
+			"__file__",
+			"handlers",
+			"ctrl+shift+c",
+			"ctrl+break",
+			"/templates/uikit/",
+			"templates",
+			"/uikit/",
+			"/uikit",
+			"uikit/",
+			"uikit-2.22.0",
+			"uikit",
+			"css",
+			"0",
+			"uikit",
+			"0",
+			"uikit",
+			"www",
+			"http",
+			"static",
+			"\"ctrl+shift+w\"",
+			"\"ctrl+shift+s\"",
+			"\"ctrl+shift+q\"",
+			"select",
+			"quotes",
+			"liaoxuefeng",
+			"name",
+			"self",
+			"#!/"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "D:\\codeplace\\py\\apw\\www\\awesome-python3-webapp"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "www/handlers.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3058,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1527.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "www/app.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5214,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3402.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "www/templates/eq_base.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3140,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "www/templates/__base__.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4017,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1204,
+								1204
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 162.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "www/templates/eq.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2761,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								304,
+								304
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2349.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 35.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 294.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Python 3/Python3.sublime-build",
+	"project": "",
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"han",
+				"www\\handlers.py"
+			],
+			[
+				"co",
+				"www\\coroweb.py"
+			],
+			[
+				"blo",
+				"www\\templates\\blogs.html"
+			],
+			[
+				"",
+				"www\\templates\\__base__.html"
+			],
+			[
+				"app",
+				"www\\app.py"
+			],
+			[
+				"css",
+				"www\\static\\css\\uikit.min.css"
+			],
+			[
+				"tem",
+				"www\\templates\\__base__.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 750.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"D:\\codeplace\\py\\apw\\www\\awesome-python3-webapp\\awesome-python3-webapp.sublime-workspace"
+			]
+		],
+		"width": 570.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
