@@ -90,12 +90,19 @@ class RequestHandler(object):
 
     @asyncio.coroutine
     def __call__(self, request):
+        logging.info('request content_type is %s'%str(request.content_type))
+        logging.info('request path_qs is %s'%str(request.path_qs))
+        logging.info('request path is %s'%str(request.path))
+        logging.info('request raw_path is %s'%str(request.raw_path))
+        logging.info('request query_string is %s'%str(request.query_string))
+        logging.info('request request is %s'%str(request))
+        logging.info('request match_info is %s'%str(request.match_info))
         kw = None
         if self._has_var_kw_arg or self._has_named_kw_args or self._required_kw_args:
             if request.method == 'POST':
                 if not request.content_type:
                     return web.HTTPBadRequest('Missing Content-Type.')
-                ct = request.content_type.lower()
+                ct = request.content_type.lower()                
                 if ct.startswith('application/json'):
                     params = yield from request.json()
                     if not isinstance(params, dict):

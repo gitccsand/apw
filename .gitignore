@@ -21,7 +21,11 @@ develop-eggs
 .installed.cfg
 lib
 lib64
+www/static/web-source
 __pycache__
+
+#temp
+bak
 
 # Installer logs
 pip-log.txt

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-__author__ = 'Michael Liao'
+__author__ = 'lhw'
 
 '''
 async web application.
@@ -118,6 +118,12 @@ def datetime_filter(t):
     return u'%s年%s月%s日' % (dt.year, dt.month, dt.day)
 
 @asyncio.coroutine
+def somef():
+    print('somef')
+    #c = yield 
+    return os.path.join(os.path.dirname(os.path.abspath(__file__)), 'templates')
+
+@asyncio.coroutine
 def init(loop):
     yield from orm.create_pool(loop=loop, **configs.db)
     app = web.Application(loop=loop, middlewares=[
@@ -128,8 +134,28 @@ def init(loop):
     add_static(app)
     srv = yield from loop.create_server(app.make_handler(), '127.0.0.1', 9000)
     logging.info('server started at http://127.0.0.1:9000...')
+    y = yield from somef()
+    print(y)
     return srv
+    #yield from loop.create_server(app.make_handler(), '127.0.0.1', 9000)#1
+    #return None#1
+
 
 loop = asyncio.get_event_loop()
-loop.run_until_complete(init(loop))
-loop.run_forever()
+
+srv = loop.run_until_complete(init(loop))
+#srv.close()
+
+#srv = init(loop)
+#loop.run_until_complete(srv)
+
+#loop.run_until_complete(init(loop))#配合1
+
+try:
+    loop.run_forever()
+except Exception as e:
+    raise e
+finally:
+    pass
+
+

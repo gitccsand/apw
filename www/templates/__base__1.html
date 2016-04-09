@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!--
+{% macro pagination(url, page) %}
+    <ul class="uk-pagination">
+        {% if page.has_previous %}
+            <li><a href="{{ url }}{{ page.page_index - 1 }}"><i class="uk-icon-angle-double-left"></i></a></li>
+        {% else %}
+            <li class="uk-disabled"><span><i class="uk-icon-angle-double-left"></i></span></li>
+        {% endif %}
+            <li class="uk-active"><span>{{ page.page_index }}</span></li>
+        {% if page.has_next %}
+            <li><a href="{{ url }}{{ page.page_index + 1 }}"><i class="uk-icon-angle-double-right"></i></a></li>
+        {% else %}
+            <li class="uk-disabled"><span><i class="uk-icon-angle-double-right"></i></span></li>
+        {% endif %}
+    </ul>
+{% endmacro %}
+-->
+<html class="uk-height-1-1">
+<head>
+    <meta charset="utf-8" />
+    {% block meta %}<!-- block meta  -->{% endblock %}
+    <title>{% block title %} ? {% endblock %} - 资产登记</title>
+    <link rel="stylesheet" href="static/uikit-2.22.0/css/uikit.min.css">
+    <link rel="stylesheet" href="static/uikit-2.22.0/css/uikit.gradient.min.css">
+    <link rel="stylesheet" href="static/css/awesome.css" />
+    <script src="static/js/jquery.min.js"></script>
+    <script src="static/js/sha1.min.js"></script>
+    <script src="static/js/uikit.min.js"></script>
+    <script src="static/js/sticky.min.js"></script>
+    <script src="static/js/vue.min.js"></script>
+    <script src="static/js/awesome.js"></script>
+    {% block beforehead %}<!-- before head  -->{% endblock %}
+</head>
+<body class="uk-height-1-1">
+    
+    <nav class="uk-navbar uk-navbar-attached uk-margin-bottom uk-position-relative">
+        <div class="uk-container uk-container-center">
+            <a href="/" class="uk-navbar-brand">资产登记</a>
+            <ul class="uk-navbar-nav">
+                <li><a href="/eq"><i class="uk-icon-tv"></i>信息类</a></li>
+                <li><a href="/che"><i class="uk-icon-truck"></i> 车辆</a></li>
+                <li><a href="/fw"><i class="uk-icon-building"></i> 房屋</a></li>
+                <!-- <li data-url="blogs"><a href="/fw"><i class="uk-icon-home"></i> 房屋</a></li> -->
+                <!-- <li><a target="_blank" href="/che"><i class="uk-icon-book"></i> 车辆</a></li>
+                <li><a target="_blank" href="/eq"><i class="uk-icon-code"></i>设备</a></li> -->
+            </ul>
+            <div class="uk-navbar-flip">
+                <ul class="uk-navbar-nav">
+                {% if __user__ %}
+                    <li class="uk-parent" data-uk-dropdown>
+                        <a href="#0"><i class="uk-icon-user"></i> {{ __user__.name }}</a>
+                        <div class="uk-dropdown uk-dropdown-navbar">
+                            <ul class="uk-nav uk-nav-navbar">
+                                <li><a href="/signout"><i class="uk-icon-sign-out"></i> 登出</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                {% else %}
+                    <li><a href="/signin"><i class="uk-icon-sign-in"></i> 登陆</a></li>
+                    <li><a href="/register"><i class="uk-icon-edit"></i> 注册</a></li>
+                {% endif %}
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="uk-container-center uk-height-1-1 uk-position-relative">
+        <div class="uk-grid uk-grid-divider uk-position-relative uk-height-1-1 ">
+            <!-- content -->
+            {% block base_content %}
+            {% endblock %}
+            <!-- // content -->
+        </div>
+    </div>
+
+    <div class="uk-margin-top uk-position-relative" style="background-color:#eee; border-top:1px solid #ccc;">
+        <div class="uk-container uk-container-center uk-text-center">
+            <div class="uk-panel uk-margin-top uk-margin-bottom">
+                
+                <p>Powered by <a href="http://">资产登记系统</a>. Copyright &copy; 2015. [<a href="/" target="_blank">Manage</a>]</p>
+                
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

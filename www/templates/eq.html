@@ -1,0 +1,92 @@
+{% extends 'eq_base.html' %}
+
+
+{% block beforehead %}
+
+<script>
+</script>
+
+{% endblock %}
+{%block content%}        
+<div class="uk-overflow-container ">
+    <table class="uk-table uk-table-striped uk-table-condensed uk-text-nowrap">
+        <thead>
+            <tr>
+                <th>Table Heading</th>
+                <th>Table Heading</th>
+                <th>Table Heading</th>
+                <th>Table Heading</th>
+                <th>Table Heading</th>
+                <th>Table Heading</th>
+                <th>Table Heading</th>
+                <th>Table Heading</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <td>Table Footer</td>
+                <td>Table Footer</td>
+                <td>Table Footer</td>
+                <td>Table Footer</td>
+                <td>Table Footer</td>
+                <td>Table Footer</td>
+                <td>Table Footer</td>
+                <td>Table Footer</td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <td>Table Data</td>
+                <td>Table Data</td>
+                <td>Table Data</td>
+                <td>Table Data</td>
+                <td>Table Data</td>
+                <td>Table Data</td>
+                <td>Table Data</td>
+                <td>Table Data</td>
+            </tr>
+            <tr>
+                <td>Table Data</td>
+                <td>Table Data</td>
+                <td>Table Data</td>
+                <td>Table Data</td>
+                <td>Table Data</td>
+                <td>Table Data</td>
+                <td>Table Data</td>
+                <td>Table Data</td>
+            </tr>
+            <tr>
+                <td>Table Data</td>
+                <td>Table Data</td>
+                <td>Table Data</td>
+                <td>Table Data</td>
+                <td>Table Data</td>
+                <td>Table Data</td>
+                <td>Table Data</td>
+                <td>Table Data</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+    {% for blog in eqs %}
+    <!-- <div class="uk-container-center"> -->
+
+        <!-- <div class="uk-block-primary uk-contrast"> -->
+           <!--  <article class="uk-article">
+                <h2>
+                    <a href="/blog/{{ blog.id }}">{{ blog.name }}</a>
+                </h2>
+                <p class="uk-article-meta">发表于{{ blog.created_at|datetime }}</p>
+                <p>{{ blog.summary }}</p>
+                <p>
+                    <a href="/blog/{{ blog.id }}">
+                        继续阅读 <i class="uk-icon-angle-double-right"></i>
+                    </a>
+                </p>
+            </article>
+            <hr class="uk-article-divider"> -->
+        <!-- </div> -->
+    <!-- </div> -->
+    {% endfor %}
+{%endblock%}   
+
