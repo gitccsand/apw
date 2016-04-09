@@ -27,6 +27,9 @@ __pycache__
 #temp
 bak
 
+#sublime
+*.sublime*
+
 # Installer logs
 pip-log.txt
 
